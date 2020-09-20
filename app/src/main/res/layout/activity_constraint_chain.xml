@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstraintActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Button A"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btB"
+        app:layout_constraintHorizontal_chainStyle="spread"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button B"
+        app:layout_constraintLeft_toRightOf="@id/btA"
+        app:layout_constraintTop_toTopOf="@id/btA"
+        app:layout_constraintRight_toLeftOf="@id/btC"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_weight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Button C"
+        app:layout_constraintLeft_toRightOf="@id/btB"
+        app:layout_constraintTop_toTopOf="@id/btB"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

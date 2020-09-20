@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android Layout</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="msg_sign_up">Ainda não é cadastrado? Cadastra-se!</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="quize_minutos">15 minutos</string>
+    <string name="amount_favorite">54214</string>
+    <string name="msg_cappuccino">Uma simples e perfeitamente extraída dose de espresso misturado com leite fresco e chocolate fazem esta bebida deliciosa.</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="dose_espresso">dose espresso</string>
+    <string name="cem_ml_leite">100ml leite</string>
+    <string name="uma_colher_chocolate_em_po">1 colher de chocolate em pó</string>
+
+</resources>
